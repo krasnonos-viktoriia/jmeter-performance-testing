@@ -27,6 +27,8 @@ jobs:
 
       - name: Prepare folders
         run: |
+          rm -rf results
+          rm -rf reports/all_reports
           mkdir -p results
           mkdir -p reports/all_reports
 
