@@ -25,17 +25,35 @@ jobs:
           tar -xzf apache-jmeter-5.6.3.tgz
           mv apache-jmeter-5.6.3 jmeter
 
-      - name: Run JMeter Test
+      - name: Run Load Test
         run: |
-          mkdir -p results reports/html-report
+          mkdir -p results reports/html_report_load
           ./jmeter/bin/jmeter -n \
             -t test-plans/load_test.jmx \
-            -l results/results.jtl \
+            -l results/results_load.jtl \
             -e \
-            -o reports/html-report
+            -o reports/html_report_load
 
-      - name: Upload HTML Report
+      - name: Run Stress Test
+        run: |
+          mkdir -p reports/html_report_stress
+          ./jmeter/bin/jmeter -n \
+            -t test-plans/stress_test.jmx \
+            -l results/results_stress.jtl \
+            -e \
+            -o reports/html_report_stress
+
+      - name: Run Endurance Test
+        run: |
+          mkdir -p reports/html_report_endurance
+          ./jmeter/bin/jmeter -n \
+            -t test-plans/endurance_test.jmx \
+            -l results/results_endurance.jtl \
+            -e \
+            -o reports/html_report_endurance
+
+      - name: Upload HTML Reports
         uses: actions/upload-artifact@v4
         with:
-          name: jmeter-html-report
-          path: reports/html-report
+          name: jmeter-html-reports
+          path: reports
