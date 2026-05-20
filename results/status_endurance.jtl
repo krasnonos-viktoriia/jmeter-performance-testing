@@ -1,0 +1,1133 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1779293807424,1201,Status code 404,404,Not Found,Thread Group 1-3,text,true,,3045,145,5,5,https://the-internet.herokuapp.com/status_codes/404,1201,0,1044
+1779293807925,700,Status code 500,500,Internal Server Error,Thread Group 1-4,text,true,,3057,145,5,5,https://the-internet.herokuapp.com/status_codes/500,700,0,543
+1779293806899,1799,Status code 200,200,OK,Thread Group 1-1,text,true,,3038,145,5,5,https://the-internet.herokuapp.com/status_codes/200,1799,0,1669
+1779293808636,151,Status code 404,404,Not Found,Thread Group 1-4,text,true,,3045,145,5,5,https://the-internet.herokuapp.com/status_codes/404,151,0,0
+1779293808636,151,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,5,5,https://the-internet.herokuapp.com/status_codes/301,151,0,0
+1779293808699,131,Status code 500,500,Internal Server Error,Thread Group 1-1,text,true,,3057,145,5,5,https://the-internet.herokuapp.com/status_codes/500,131,0,0
+1779293806946,1897,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,5,5,https://the-internet.herokuapp.com/status_codes/301,1897,0,1768
+1779293808788,133,Status code 200,200,OK,Thread Group 1-4,text,true,,3038,145,5,5,https://the-internet.herokuapp.com/status_codes/200,133,0,0
+1779293808789,132,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,5,5,https://the-internet.herokuapp.com/status_codes/301,132,0,0
+1779293808434,531,Status code 200,200,OK,Thread Group 1-5,text,true,,3038,145,6,6,https://the-internet.herokuapp.com/status_codes/200,531,0,396
+1779293808831,134,Status code 404,404,Not Found,Thread Group 1-1,text,true,,3045,145,6,6,https://the-internet.herokuapp.com/status_codes/404,134,0,0
+1779293808844,127,Status code 500,500,Internal Server Error,Thread Group 1-2,text,true,,3057,145,6,6,https://the-internet.herokuapp.com/status_codes/500,126,0,0
+1779293808923,128,Status code 200,200,OK,Thread Group 1-4,text,true,,3038,145,6,6,https://the-internet.herokuapp.com/status_codes/200,128,0,0
+1779293808923,131,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,6,6,https://the-internet.herokuapp.com/status_codes/301,131,0,0
+1779293808966,131,Status code 500,500,Internal Server Error,Thread Group 1-5,text,true,,3057,145,6,6,https://the-internet.herokuapp.com/status_codes/500,131,0,0
+1779293808968,131,Status code 200,200,OK,Thread Group 1-1,text,true,,3038,145,6,6,https://the-internet.herokuapp.com/status_codes/200,131,0,0
+1779293808971,129,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,6,6,https://the-internet.herokuapp.com/status_codes/301,129,0,0
+1779293809052,133,Status code 404,404,Not Found,Thread Group 1-4,text,true,,3045,145,6,6,https://the-internet.herokuapp.com/status_codes/404,132,0,0
+1779293809057,132,Status code 500,500,Internal Server Error,Thread Group 1-3,text,true,,3057,145,6,6,https://the-internet.herokuapp.com/status_codes/500,132,0,0
+1779293809102,127,Status code 404,404,Not Found,Thread Group 1-2,text,true,,3045,145,6,6,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293809099,130,Status code 200,200,OK,Thread Group 1-5,text,true,,3038,145,6,6,https://the-internet.herokuapp.com/status_codes/200,130,0,0
+1779293809100,129,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,6,6,https://the-internet.herokuapp.com/status_codes/301,129,0,0
+1779293809186,127,Status code 500,500,Internal Server Error,Thread Group 1-4,text,true,,3057,145,6,6,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293809191,128,Status code 200,200,OK,Thread Group 1-3,text,true,,3038,145,6,6,https://the-internet.herokuapp.com/status_codes/200,128,0,0
+1779293809230,151,Status code 404,404,Not Found,Thread Group 1-5,text,true,,3045,145,6,6,https://the-internet.herokuapp.com/status_codes/404,151,0,0
+1779293809231,150,Status code 500,500,Internal Server Error,Thread Group 1-1,text,true,,3057,145,6,6,https://the-internet.herokuapp.com/status_codes/500,150,0,0
+1779293809230,151,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,6,6,https://the-internet.herokuapp.com/status_codes/301,151,0,0
+1779293809315,129,Status code 200,200,OK,Thread Group 1-4,text,true,,3038,145,7,7,https://the-internet.herokuapp.com/status_codes/200,129,0,0
+1779293809320,127,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,7,7,https://the-internet.herokuapp.com/status_codes/301,127,0,0
+1779293808940,517,Status code 404,404,Not Found,Thread Group 1-6,text,true,,3045,145,7,7,https://the-internet.herokuapp.com/status_codes/404,517,0,390
+1779293809382,129,Status code 404,404,Not Found,Thread Group 1-5,text,true,,3045,145,7,7,https://the-internet.herokuapp.com/status_codes/404,129,0,0
+1779293809384,127,Status code 200,200,OK,Thread Group 1-2,text,true,,3038,145,7,7,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293809382,130,Status code 500,500,Internal Server Error,Thread Group 1-1,text,true,,3057,145,7,7,https://the-internet.herokuapp.com/status_codes/500,130,0,0
+1779293809445,132,Status code 404,404,Not Found,Thread Group 1-4,text,true,,3045,145,7,7,https://the-internet.herokuapp.com/status_codes/404,132,0,0
+1779293809449,133,Status code 500,500,Internal Server Error,Thread Group 1-3,text,true,,3057,145,7,7,https://the-internet.herokuapp.com/status_codes/500,133,0,0
+1779293809460,125,Status code 200,200,OK,Thread Group 1-6,text,true,,3038,145,7,7,https://the-internet.herokuapp.com/status_codes/200,125,0,0
+1779293809512,129,Status code 404,404,Not Found,Thread Group 1-2,text,true,,3045,145,7,7,https://the-internet.herokuapp.com/status_codes/404,129,0,0
+1779293809513,128,Status code 500,500,Internal Server Error,Thread Group 1-1,text,true,,3057,145,7,7,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293809512,129,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,7,7,https://the-internet.herokuapp.com/status_codes/301,129,0,0
+1779293809580,129,Status code 200,200,OK,Thread Group 1-4,text,true,,3038,145,7,7,https://the-internet.herokuapp.com/status_codes/200,129,0,0
+1779293809583,127,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,7,7,https://the-internet.herokuapp.com/status_codes/301,127,0,0
+1779293809586,127,Status code 404,404,Not Found,Thread Group 1-6,text,true,,3045,145,7,7,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293809642,130,Status code 500,500,Internal Server Error,Thread Group 1-2,text,true,,3057,145,7,7,https://the-internet.herokuapp.com/status_codes/500,130,0,0
+1779293809643,131,Status code 200,200,OK,Thread Group 1-1,text,true,,3038,145,7,7,https://the-internet.herokuapp.com/status_codes/200,130,0,0
+1779293809643,138,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,7,7,https://the-internet.herokuapp.com/status_codes/301,138,0,0
+1779293809712,126,Status code 500,500,Internal Server Error,Thread Group 1-3,text,true,,3057,145,7,7,https://the-internet.herokuapp.com/status_codes/500,126,0,0
+1779293809715,125,Status code 200,200,OK,Thread Group 1-6,text,true,,3038,145,7,7,https://the-internet.herokuapp.com/status_codes/200,125,0,0
+1779293809711,129,Status code 404,404,Not Found,Thread Group 1-4,text,true,,3045,145,7,7,https://the-internet.herokuapp.com/status_codes/404,129,0,0
+1779293809773,132,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,7,7,https://the-internet.herokuapp.com/status_codes/301,132,0,0
+1779293809774,132,Status code 404,404,Not Found,Thread Group 1-1,text,true,,3045,145,7,7,https://the-internet.herokuapp.com/status_codes/404,132,0,0
+1779293809783,128,Status code 500,500,Internal Server Error,Thread Group 1-5,text,true,,3057,145,8,8,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293809433,514,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,8,8,https://the-internet.herokuapp.com/status_codes/301,514,0,388
+1779293809840,129,Status code 200,200,OK,Thread Group 1-3,text,true,,3038,145,8,8,https://the-internet.herokuapp.com/status_codes/200,129,0,0
+1779293809841,128,Status code 404,404,Not Found,Thread Group 1-4,text,true,,3045,145,8,8,https://the-internet.herokuapp.com/status_codes/404,128,0,0
+1779293809841,128,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,8,8,https://the-internet.herokuapp.com/status_codes/301,128,0,0
+1779293809908,127,Status code 200,200,OK,Thread Group 1-1,text,true,,3038,145,8,8,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293809907,131,Status code 500,500,Internal Server Error,Thread Group 1-2,text,true,,3057,145,8,8,https://the-internet.herokuapp.com/status_codes/500,131,0,0
+1779293809911,127,Status code 404,404,Not Found,Thread Group 1-5,text,true,,3045,145,8,8,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293809948,127,Status code 500,500,Internal Server Error,Thread Group 1-7,text,true,,3057,145,8,8,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293809971,127,Status code 200,200,OK,Thread Group 1-3,text,true,,3038,145,8,8,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293809971,127,Status code 404,404,Not Found,Thread Group 1-6,text,true,,3045,145,8,8,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293809971,128,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,8,8,https://the-internet.herokuapp.com/status_codes/301,128,0,0
+1779293810036,127,Status code 500,500,Internal Server Error,Thread Group 1-1,text,true,,3057,145,8,8,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293810039,127,Status code 200,200,OK,Thread Group 1-5,text,true,,3038,145,8,8,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293810039,130,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,8,8,https://the-internet.herokuapp.com/status_codes/301,130,0,0
+1779293810076,126,Status code 404,404,Not Found,Thread Group 1-7,text,true,,3045,145,8,8,https://the-internet.herokuapp.com/status_codes/404,126,0,0
+1779293810100,127,Status code 500,500,Internal Server Error,Thread Group 1-3,text,true,,3057,145,8,8,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293810101,126,Status code 200,200,OK,Thread Group 1-6,text,true,,3038,145,8,8,https://the-internet.herokuapp.com/status_codes/200,126,0,0
+1779293810101,129,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,8,8,https://the-internet.herokuapp.com/status_codes/301,129,0,0
+1779293810164,132,Status code 404,404,Not Found,Thread Group 1-1,text,true,,3045,145,8,8,https://the-internet.herokuapp.com/status_codes/404,132,0,0
+1779293810167,129,Status code 500,500,Internal Server Error,Thread Group 1-5,text,true,,3057,145,8,8,https://the-internet.herokuapp.com/status_codes/500,129,0,0
+1779293810172,124,Status code 200,200,OK,Thread Group 1-2,text,true,,3038,145,8,8,https://the-internet.herokuapp.com/status_codes/200,124,0,0
+1779293810203,127,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,8,8,https://the-internet.herokuapp.com/status_codes/301,126,0,0
+1779293810228,128,Status code 404,404,Not Found,Thread Group 1-3,text,true,,3045,145,8,8,https://the-internet.herokuapp.com/status_codes/404,128,0,0
+1779293810228,128,Status code 500,500,Internal Server Error,Thread Group 1-6,text,true,,3057,145,8,8,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293810234,126,Status code 200,200,OK,Thread Group 1-4,text,true,,3038,145,8,8,https://the-internet.herokuapp.com/status_codes/200,125,0,0
+1779293810298,128,Status code 500,500,Internal Server Error,Thread Group 1-2,text,true,,3057,145,9,9,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293810298,128,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,9,9,https://the-internet.herokuapp.com/status_codes/301,128,0,0
+1779293810298,133,Status code 404,404,Not Found,Thread Group 1-5,text,true,,3045,145,9,9,https://the-internet.herokuapp.com/status_codes/404,133,0,0
+1779293809911,520,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,9,9,https://the-internet.herokuapp.com/status_codes/301,520,0,385
+1779293810332,126,Status code 200,200,OK,Thread Group 1-7,text,true,,3038,145,9,9,https://the-internet.herokuapp.com/status_codes/200,126,0,0
+1779293810357,127,Status code 404,404,Not Found,Thread Group 1-6,text,true,,3045,145,9,9,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293810357,127,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,9,9,https://the-internet.herokuapp.com/status_codes/301,127,0,0
+1779293810360,128,Status code 500,500,Internal Server Error,Thread Group 1-4,text,true,,3057,145,9,9,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293810427,126,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,9,9,https://the-internet.herokuapp.com/status_codes/301,125,0,0
+1779293810427,128,Status code 404,404,Not Found,Thread Group 1-1,text,true,,3045,145,9,9,https://the-internet.herokuapp.com/status_codes/404,128,0,0
+1779293810432,128,Status code 500,500,Internal Server Error,Thread Group 1-5,text,true,,3057,145,9,9,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293810434,126,Status code 200,200,OK,Thread Group 1-8,text,true,,3038,145,9,9,https://the-internet.herokuapp.com/status_codes/200,126,0,0
+1779293810459,127,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,9,9,https://the-internet.herokuapp.com/status_codes/301,127,0,0
+1779293810486,127,Status code 500,500,Internal Server Error,Thread Group 1-3,text,true,,3057,145,9,9,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293810486,130,Status code 404,404,Not Found,Thread Group 1-6,text,true,,3045,145,9,9,https://the-internet.herokuapp.com/status_codes/404,129,0,0
+1779293810490,132,Status code 200,200,OK,Thread Group 1-4,text,true,,3038,145,9,9,https://the-internet.herokuapp.com/status_codes/200,132,0,0
+1779293810555,144,Status code 404,404,Not Found,Thread Group 1-1,text,true,,3045,145,9,9,https://the-internet.herokuapp.com/status_codes/404,144,0,0
+1779293810562,137,Status code 200,200,OK,Thread Group 1-8,text,true,,3038,145,9,9,https://the-internet.herokuapp.com/status_codes/200,137,0,0
+1779293810554,145,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,9,9,https://the-internet.herokuapp.com/status_codes/301,145,0,0
+1779293810561,142,Status code 500,500,Internal Server Error,Thread Group 1-5,text,true,,3057,145,9,9,https://the-internet.herokuapp.com/status_codes/500,142,0,0
+1779293810588,127,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,9,9,https://the-internet.herokuapp.com/status_codes/301,127,0,0
+1779293810614,131,Status code 404,404,Not Found,Thread Group 1-3,text,true,,3045,145,9,9,https://the-internet.herokuapp.com/status_codes/404,130,0,0
+1779293810617,134,Status code 500,500,Internal Server Error,Thread Group 1-6,text,true,,3057,145,9,9,https://the-internet.herokuapp.com/status_codes/500,134,0,0
+1779293810625,127,Status code 200,200,OK,Thread Group 1-4,text,true,,3038,145,9,9,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293810700,129,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,9,9,https://the-internet.herokuapp.com/status_codes/301,129,0,0
+1779293810700,131,Status code 404,404,Not Found,Thread Group 1-1,text,true,,3045,145,9,9,https://the-internet.herokuapp.com/status_codes/404,131,0,0
+1779293810700,131,Status code 500,500,Internal Server Error,Thread Group 1-8,text,true,,3057,145,9,9,https://the-internet.herokuapp.com/status_codes/500,131,0,0
+1779293810706,128,Status code 200,200,OK,Thread Group 1-5,text,true,,3038,145,9,9,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293810717,129,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,9,9,https://the-internet.herokuapp.com/status_codes/301,129,0,0
+1779293810746,132,Status code 404,404,Not Found,Thread Group 1-3,text,true,,3045,145,9,9,https://the-internet.herokuapp.com/status_codes/404,132,0,0
+1779293810752,128,Status code 500,500,Internal Server Error,Thread Group 1-6,text,true,,3057,145,9,9,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293810754,129,Status code 200,200,OK,Thread Group 1-4,text,true,,3038,145,9,9,https://the-internet.herokuapp.com/status_codes/200,129,0,0
+1779293810414,517,Status code 200,200,OK,Thread Group 1-9,text,true,,3038,145,10,10,https://the-internet.herokuapp.com/status_codes/200,517,0,391
+1779293810830,126,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,10,10,https://the-internet.herokuapp.com/status_codes/301,126,0,0
+1779293810832,126,Status code 500,500,Internal Server Error,Thread Group 1-8,text,true,,3057,145,10,10,https://the-internet.herokuapp.com/status_codes/500,126,0,0
+1779293810831,127,Status code 404,404,Not Found,Thread Group 1-1,text,true,,3045,145,10,10,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293810835,127,Status code 200,200,OK,Thread Group 1-5,text,true,,3038,145,10,10,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293810847,126,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,10,10,https://the-internet.herokuapp.com/status_codes/301,126,0,0
+1779293810884,125,Status code 200,200,OK,Thread Group 1-4,text,true,,3038,145,10,10,https://the-internet.herokuapp.com/status_codes/200,125,0,0
+1779293810879,131,Status code 404,404,Not Found,Thread Group 1-3,text,true,,3045,145,10,10,https://the-internet.herokuapp.com/status_codes/404,131,0,0
+1779293810881,129,Status code 500,500,Internal Server Error,Thread Group 1-6,text,true,,3057,145,10,10,https://the-internet.herokuapp.com/status_codes/500,129,0,0
+1779293810932,130,Status code 404,404,Not Found,Thread Group 1-9,text,true,,3045,145,10,10,https://the-internet.herokuapp.com/status_codes/404,130,0,0
+1779293810957,127,Status code 500,500,Internal Server Error,Thread Group 1-2,text,true,,3057,145,10,10,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293810960,126,Status code 200,200,OK,Thread Group 1-8,text,true,,3038,145,10,10,https://the-internet.herokuapp.com/status_codes/200,126,0,0
+1779293810960,126,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,10,10,https://the-internet.herokuapp.com/status_codes/301,126,0,0
+1779293810963,129,Status code 404,404,Not Found,Thread Group 1-5,text,true,,3045,145,10,10,https://the-internet.herokuapp.com/status_codes/404,129,0,0
+1779293810975,128,Status code 500,500,Internal Server Error,Thread Group 1-7,text,true,,3057,145,10,10,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293811011,127,Status code 404,404,Not Found,Thread Group 1-4,text,true,,3045,145,10,10,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293811011,127,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,10,10,https://the-internet.herokuapp.com/status_codes/301,127,0,0
+1779293811011,129,Status code 200,200,OK,Thread Group 1-3,text,true,,3038,145,10,10,https://the-internet.herokuapp.com/status_codes/200,129,0,0
+1779293811063,127,Status code 500,500,Internal Server Error,Thread Group 1-9,text,true,,3057,145,10,10,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293811086,128,Status code 200,200,OK,Thread Group 1-2,text,true,,3038,145,10,10,https://the-internet.herokuapp.com/status_codes/200,128,0,0
+1779293811087,127,Status code 404,404,Not Found,Thread Group 1-1,text,true,,3045,145,10,10,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293811086,128,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,10,10,https://the-internet.herokuapp.com/status_codes/301,128,0,0
+1779293811093,129,Status code 500,500,Internal Server Error,Thread Group 1-5,text,true,,3057,145,10,10,https://the-internet.herokuapp.com/status_codes/500,129,0,0
+1779293811105,131,Status code 200,200,OK,Thread Group 1-7,text,true,,3038,145,10,10,https://the-internet.herokuapp.com/status_codes/200,131,0,0
+1779293811139,125,Status code 404,404,Not Found,Thread Group 1-6,text,true,,3045,145,10,10,https://the-internet.herokuapp.com/status_codes/404,125,0,0
+1779293811139,125,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,10,10,https://the-internet.herokuapp.com/status_codes/301,125,0,0
+1779293811141,128,Status code 500,500,Internal Server Error,Thread Group 1-3,text,true,,3057,145,10,10,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293811192,129,Status code 200,200,OK,Thread Group 1-9,text,true,,3038,145,10,10,https://the-internet.herokuapp.com/status_codes/200,129,0,0
+1779293811215,127,Status code 500,500,Internal Server Error,Thread Group 1-8,text,true,,3057,145,10,10,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293811215,127,Status code 404,404,Not Found,Thread Group 1-2,text,true,,3045,145,10,10,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293811215,127,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,10,10,https://the-internet.herokuapp.com/status_codes/301,127,0,0
+1779293811224,127,Status code 200,200,OK,Thread Group 1-5,text,true,,3038,145,10,10,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293811237,127,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,10,10,https://the-internet.herokuapp.com/status_codes/301,127,0,0
+1779293811265,135,Status code 500,500,Internal Server Error,Thread Group 1-4,text,true,,3057,145,10,10,https://the-internet.herokuapp.com/status_codes/500,135,0,0
+1779293811265,136,Status code 404,404,Not Found,Thread Group 1-6,text,true,,3045,145,10,10,https://the-internet.herokuapp.com/status_codes/404,136,0,0
+1779293811270,131,Status code 200,200,OK,Thread Group 1-3,text,true,,3038,145,10,10,https://the-internet.herokuapp.com/status_codes/200,131,0,0
+1779293810916,516,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,11,11,https://the-internet.herokuapp.com/status_codes/301,516,0,389
+1779293811322,126,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,11,11,https://the-internet.herokuapp.com/status_codes/301,126,0,0
+1779293811344,126,Status code 500,500,Internal Server Error,Thread Group 1-2,text,true,,3057,145,11,11,https://the-internet.herokuapp.com/status_codes/500,126,0,0
+1779293811343,127,Status code 404,404,Not Found,Thread Group 1-8,text,true,,3045,145,11,11,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293811345,127,Status code 200,200,OK,Thread Group 1-1,text,true,,3038,145,11,11,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293811352,127,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,11,11,https://the-internet.herokuapp.com/status_codes/301,127,0,0
+1779293811365,127,Status code 404,404,Not Found,Thread Group 1-7,text,true,,3045,145,11,11,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293811402,128,Status code 200,200,OK,Thread Group 1-6,text,true,,3038,145,11,11,https://the-internet.herokuapp.com/status_codes/200,128,0,0
+1779293811401,129,Status code 500,500,Internal Server Error,Thread Group 1-4,text,true,,3057,145,11,11,https://the-internet.herokuapp.com/status_codes/500,129,0,0
+1779293811402,128,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,11,11,https://the-internet.herokuapp.com/status_codes/301,128,0,0
+1779293811434,130,Status code 500,500,Internal Server Error,Thread Group 1-10,text,true,,3057,145,11,11,https://the-internet.herokuapp.com/status_codes/500,129,0,0
+1779293811449,127,Status code 200,200,OK,Thread Group 1-9,text,true,,3042,145,11,11,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293811471,127,Status code 404,404,Not Found,Thread Group 1-8,text,true,,3049,145,11,11,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293811471,127,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,11,11,https://the-internet.herokuapp.com/status_codes/301,127,0,0
+1779293811473,127,Status code 500,500,Internal Server Error,Thread Group 1-1,text,true,,3061,145,11,11,https://the-internet.herokuapp.com/status_codes/500,126,0,0
+1779293811481,127,Status code 200,200,OK,Thread Group 1-5,text,true,,3042,145,11,11,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293811492,131,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,11,11,https://the-internet.herokuapp.com/status_codes/301,131,0,0
+1779293811531,132,Status code 500,500,Internal Server Error,Thread Group 1-6,text,true,,3061,145,11,11,https://the-internet.herokuapp.com/status_codes/500,132,0,0
+1779293811531,132,Status code 404,404,Not Found,Thread Group 1-4,text,true,,3049,145,11,11,https://the-internet.herokuapp.com/status_codes/404,132,0,0
+1779293811532,131,Status code 200,200,OK,Thread Group 1-3,text,true,,3042,145,11,11,https://the-internet.herokuapp.com/status_codes/200,131,0,0
+1779293811565,126,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,11,11,https://the-internet.herokuapp.com/status_codes/301,126,0,0
+1779293811577,127,Status code 404,404,Not Found,Thread Group 1-9,text,true,,3049,145,11,11,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293811598,128,Status code 500,500,Internal Server Error,Thread Group 1-8,text,true,,3061,145,11,11,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293811600,128,Status code 200,200,OK,Thread Group 1-2,text,true,,3042,145,11,11,https://the-internet.herokuapp.com/status_codes/200,128,0,0
+1779293811600,128,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,11,11,https://the-internet.herokuapp.com/status_codes/301,128,0,0
+1779293811608,128,Status code 404,404,Not Found,Thread Group 1-5,text,true,,3049,145,11,11,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293811625,127,Status code 500,500,Internal Server Error,Thread Group 1-7,text,true,,3061,145,11,11,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293811665,130,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,11,11,https://the-internet.herokuapp.com/status_codes/301,130,0,0
+1779293811665,134,Status code 200,200,OK,Thread Group 1-6,text,true,,3042,145,11,11,https://the-internet.herokuapp.com/status_codes/200,134,0,0
+1779293811665,135,Status code 404,404,Not Found,Thread Group 1-4,text,true,,3049,145,11,11,https://the-internet.herokuapp.com/status_codes/404,135,0,0
+1779293811693,128,Status code 500,500,Internal Server Error,Thread Group 1-10,text,true,,3061,145,11,11,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293811706,127,Status code 200,200,OK,Thread Group 1-9,text,true,,3042,145,11,11,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293811727,126,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,11,11,https://the-internet.herokuapp.com/status_codes/301,125,0,0
+1779293811729,127,Status code 404,404,Not Found,Thread Group 1-2,text,true,,3049,145,11,11,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293811730,126,Status code 500,500,Internal Server Error,Thread Group 1-1,text,true,,3061,145,11,11,https://the-internet.herokuapp.com/status_codes/500,126,0,0
+1779293811737,128,Status code 200,200,OK,Thread Group 1-5,text,true,,3042,145,11,11,https://the-internet.herokuapp.com/status_codes/200,128,0,0
+1779293811753,126,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,11,11,https://the-internet.herokuapp.com/status_codes/301,126,0,0
+1779293811797,127,Status code 404,404,Not Found,Thread Group 1-3,text,true,,3049,145,12,12,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293811802,129,Status code 200,200,OK,Thread Group 1-4,text,true,,3042,145,12,12,https://the-internet.herokuapp.com/status_codes/200,129,0,0
+1779293811801,130,Status code 500,500,Internal Server Error,Thread Group 1-6,text,true,,3061,145,12,12,https://the-internet.herokuapp.com/status_codes/500,130,0,0
+1779293811421,513,Status code 404,404,Not Found,Thread Group 1-11,text,true,,3049,145,12,12,https://the-internet.herokuapp.com/status_codes/404,513,0,388
+1779293811823,130,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,12,12,https://the-internet.herokuapp.com/status_codes/301,129,0,0
+1779293811834,127,Status code 404,404,Not Found,Thread Group 1-9,text,true,,3049,145,12,12,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293811854,125,Status code 500,500,Internal Server Error,Thread Group 1-8,text,true,,3061,145,12,12,https://the-internet.herokuapp.com/status_codes/500,125,0,0
+1779293811858,127,Status code 200,200,OK,Thread Group 1-2,text,true,,3042,145,12,12,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293811858,127,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,12,12,https://the-internet.herokuapp.com/status_codes/301,127,0,0
+1779293811866,128,Status code 404,404,Not Found,Thread Group 1-5,text,true,,3049,145,12,12,https://the-internet.herokuapp.com/status_codes/404,128,0,0
+1779293811881,128,Status code 500,500,Internal Server Error,Thread Group 1-7,text,true,,3061,145,12,12,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293811925,130,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,12,12,https://the-internet.herokuapp.com/status_codes/301,130,0,0
+1779293811932,127,Status code 500,500,Internal Server Error,Thread Group 1-6,text,true,,3061,145,12,12,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293811932,129,Status code 404,404,Not Found,Thread Group 1-4,text,true,,3049,145,12,12,https://the-internet.herokuapp.com/status_codes/404,129,0,0
+1779293811937,124,Status code 200,200,OK,Thread Group 1-11,text,true,,3042,145,12,12,https://the-internet.herokuapp.com/status_codes/200,124,0,0
+1779293811954,128,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,12,12,https://the-internet.herokuapp.com/status_codes/301,128,0,0
+1779293811962,127,Status code 404,404,Not Found,Thread Group 1-9,text,true,,3049,145,12,12,https://the-internet.herokuapp.com/status_codes/404,126,0,0
+1779293811980,127,Status code 500,500,Internal Server Error,Thread Group 1-8,text,true,,3061,145,12,12,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293811986,129,Status code 200,200,OK,Thread Group 1-2,text,true,,3042,145,12,12,https://the-internet.herokuapp.com/status_codes/200,129,0,0
+1779293811986,129,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,12,12,https://the-internet.herokuapp.com/status_codes/301,129,0,0
+1779293811994,127,Status code 404,404,Not Found,Thread Group 1-5,text,true,,3049,145,12,12,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293812010,126,Status code 500,500,Internal Server Error,Thread Group 1-7,text,true,,3061,145,12,12,https://the-internet.herokuapp.com/status_codes/500,126,0,0
+1779293812057,129,Status code 200,200,OK,Thread Group 1-3,text,true,,3042,145,12,12,https://the-internet.herokuapp.com/status_codes/200,129,0,0
+1779293812061,125,Status code 404,404,Not Found,Thread Group 1-4,text,true,,3049,145,12,12,https://the-internet.herokuapp.com/status_codes/404,124,0,0
+1779293812060,126,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,12,12,https://the-internet.herokuapp.com/status_codes/301,126,0,0
+1779293812062,126,Status code 500,500,Internal Server Error,Thread Group 1-11,text,true,,3061,145,12,12,https://the-internet.herokuapp.com/status_codes/500,126,0,0
+1779293812084,126,Status code 200,200,OK,Thread Group 1-10,text,true,,3042,145,12,12,https://the-internet.herokuapp.com/status_codes/200,126,0,0
+1779293812089,130,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,12,12,https://the-internet.herokuapp.com/status_codes/301,130,0,0
+1779293812107,130,Status code 404,404,Not Found,Thread Group 1-8,text,true,,3049,145,12,12,https://the-internet.herokuapp.com/status_codes/404,130,0,0
+1779293812115,127,Status code 500,500,Internal Server Error,Thread Group 1-2,text,true,,3061,145,12,12,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293812117,125,Status code 200,200,OK,Thread Group 1-1,text,true,,3042,145,12,12,https://the-internet.herokuapp.com/status_codes/200,125,0,0
+1779293812122,130,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,12,12,https://the-internet.herokuapp.com/status_codes/301,130,0,0
+1779293812137,127,Status code 404,404,Not Found,Thread Group 1-7,text,true,,3049,145,12,12,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293812187,128,Status code 500,500,Internal Server Error,Thread Group 1-4,text,true,,3061,145,12,12,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293812188,127,Status code 404,404,Not Found,Thread Group 1-11,text,true,,3049,145,12,12,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293812187,128,Status code 200,200,OK,Thread Group 1-3,text,true,,3042,145,12,12,https://the-internet.herokuapp.com/status_codes/200,128,0,0
+1779293812188,127,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,12,12,https://the-internet.herokuapp.com/status_codes/301,127,0,0
+1779293812211,130,Status code 500,500,Internal Server Error,Thread Group 1-10,text,true,,3061,145,12,12,https://the-internet.herokuapp.com/status_codes/500,130,0,0
+1779293812221,126,Status code 200,200,OK,Thread Group 1-9,text,true,,3042,145,12,12,https://the-internet.herokuapp.com/status_codes/200,126,0,0
+1779293812238,125,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,12,12,https://the-internet.herokuapp.com/status_codes/301,125,0,0
+1779293812242,131,Status code 404,404,Not Found,Thread Group 1-2,text,true,,3049,145,12,12,https://the-internet.herokuapp.com/status_codes/404,131,0,0
+1779293812243,130,Status code 500,500,Internal Server Error,Thread Group 1-1,text,true,,3061,145,12,12,https://the-internet.herokuapp.com/status_codes/500,130,0,0
+1779293812253,130,Status code 200,200,OK,Thread Group 1-5,text,true,,3042,145,12,12,https://the-internet.herokuapp.com/status_codes/200,130,0,0
+1779293812264,126,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,12,12,https://the-internet.herokuapp.com/status_codes/301,126,0,0
+1779293812316,137,Status code 500,500,Internal Server Error,Thread Group 1-3,text,true,,3061,145,13,13,https://the-internet.herokuapp.com/status_codes/500,137,0,0
+1779293812316,137,Status code 404,404,Not Found,Thread Group 1-11,text,true,,3049,145,13,13,https://the-internet.herokuapp.com/status_codes/404,137,0,0
+1779293812317,136,Status code 200,200,OK,Thread Group 1-6,text,true,,3042,145,13,13,https://the-internet.herokuapp.com/status_codes/200,136,0,0
+1779293812317,136,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,13,13,https://the-internet.herokuapp.com/status_codes/301,136,0,0
+1779293812342,126,Status code 404,404,Not Found,Thread Group 1-10,text,true,,3049,145,13,13,https://the-internet.herokuapp.com/status_codes/404,126,0,0
+1779293811908,564,Status code 200,200,OK,Thread Group 1-12,text,true,,3042,145,13,13,https://the-internet.herokuapp.com/status_codes/200,564,0,407
+1779293812348,126,Status code 500,500,Internal Server Error,Thread Group 1-9,text,true,,3061,145,13,13,https://the-internet.herokuapp.com/status_codes/500,126,0,0
+1779293812365,126,Status code 200,200,OK,Thread Group 1-8,text,true,,3042,145,13,13,https://the-internet.herokuapp.com/status_codes/200,126,0,0
+1779293812374,127,Status code 404,404,Not Found,Thread Group 1-1,text,true,,3049,145,13,13,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293812374,127,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,13,13,https://the-internet.herokuapp.com/status_codes/301,127,0,0
+1779293812384,126,Status code 500,500,Internal Server Error,Thread Group 1-5,text,true,,3061,145,13,13,https://the-internet.herokuapp.com/status_codes/500,126,0,0
+1779293812391,126,Status code 200,200,OK,Thread Group 1-7,text,true,,3042,145,13,13,https://the-internet.herokuapp.com/status_codes/200,126,0,0
+1779293812454,128,Status code 404,404,Not Found,Thread Group 1-3,text,true,,3049,145,13,13,https://the-internet.herokuapp.com/status_codes/404,128,0,0
+1779293812455,127,Status code 200,200,OK,Thread Group 1-6,text,true,,3042,145,13,13,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293812454,128,Status code 500,500,Internal Server Error,Thread Group 1-11,text,true,,3061,145,13,13,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293812475,150,Status code 200,200,OK,Thread Group 1-9,text,true,,3042,145,13,13,https://the-internet.herokuapp.com/status_codes/200,150,0,0
+1779293812469,156,Status code 404,404,Not Found,Thread Group 1-10,text,true,,3049,145,13,13,https://the-internet.herokuapp.com/status_codes/404,156,0,0
+1779293812492,133,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,13,13,https://the-internet.herokuapp.com/status_codes/301,133,0,0
+1779293812473,152,Status code 500,500,Internal Server Error,Thread Group 1-12,text,true,,3061,145,13,13,https://the-internet.herokuapp.com/status_codes/500,152,0,0
+1779293812502,126,Status code 500,500,Internal Server Error,Thread Group 1-2,text,true,,3061,145,13,13,https://the-internet.herokuapp.com/status_codes/500,125,0,0
+1779293812502,127,Status code 404,404,Not Found,Thread Group 1-1,text,true,,3049,145,13,13,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293812512,127,Status code 200,200,OK,Thread Group 1-5,text,true,,3042,145,13,13,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293812518,125,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,13,13,https://the-internet.herokuapp.com/status_codes/301,125,0,0
+1779293812455,189,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,13,13,https://the-internet.herokuapp.com/status_codes/301,189,0,0
+1779293812584,127,Status code 200,200,OK,Thread Group 1-6,text,true,,3042,145,13,13,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293812583,128,Status code 500,500,Internal Server Error,Thread Group 1-11,text,true,,3061,145,13,13,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293812583,130,Status code 404,404,Not Found,Thread Group 1-3,text,true,,3049,145,13,13,https://the-internet.herokuapp.com/status_codes/404,130,0,0
+1779293812626,128,Status code 404,404,Not Found,Thread Group 1-10,text,true,,3049,145,13,13,https://the-internet.herokuapp.com/status_codes/404,128,0,0
+1779293812627,129,Status code 200,200,OK,Thread Group 1-12,text,true,,3042,145,13,13,https://the-internet.herokuapp.com/status_codes/200,129,0,0
+1779293812626,130,Status code 500,500,Internal Server Error,Thread Group 1-8,text,true,,3061,145,13,13,https://the-internet.herokuapp.com/status_codes/500,130,0,0
+1779293812626,130,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,13,13,https://the-internet.herokuapp.com/status_codes/301,130,0,0
+1779293812630,129,Status code 404,404,Not Found,Thread Group 1-1,text,true,,3049,145,13,13,https://the-internet.herokuapp.com/status_codes/404,129,0,0
+1779293812628,131,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,13,13,https://the-internet.herokuapp.com/status_codes/301,131,0,0
+1779293812640,129,Status code 500,500,Internal Server Error,Thread Group 1-5,text,true,,3061,145,13,13,https://the-internet.herokuapp.com/status_codes/500,129,0,0
+1779293812645,127,Status code 200,200,OK,Thread Group 1-7,text,true,,3042,145,13,13,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293812645,127,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,13,13,https://the-internet.herokuapp.com/status_codes/301,127,0,0
+1779293812712,127,Status code 404,404,Not Found,Thread Group 1-6,text,true,,3049,145,13,13,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293812713,126,Status code 500,500,Internal Server Error,Thread Group 1-11,text,true,,3061,145,13,13,https://the-internet.herokuapp.com/status_codes/500,126,0,0
+1779293812714,129,Status code 200,200,OK,Thread Group 1-3,text,true,,3042,145,13,13,https://the-internet.herokuapp.com/status_codes/200,129,0,0
+1779293812757,128,Status code 404,404,Not Found,Thread Group 1-12,text,true,,3049,145,13,13,https://the-internet.herokuapp.com/status_codes/404,128,0,0
+1779293812757,128,Status code 500,500,Internal Server Error,Thread Group 1-8,text,true,,3061,145,13,13,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293812755,130,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,13,13,https://the-internet.herokuapp.com/status_codes/301,130,0,0
+1779293812760,128,Status code 404,404,Not Found,Thread Group 1-2,text,true,,3049,145,13,13,https://the-internet.herokuapp.com/status_codes/404,128,0,0
+1779293812758,130,Status code 200,200,OK,Thread Group 1-9,text,true,,3042,145,13,13,https://the-internet.herokuapp.com/status_codes/200,130,0,0
+1779293812760,130,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,13,13,https://the-internet.herokuapp.com/status_codes/301,130,0,0
+1779293812770,130,Status code 500,500,Internal Server Error,Thread Group 1-5,text,true,,3061,145,13,13,https://the-internet.herokuapp.com/status_codes/500,130,0,0
+1779293812774,126,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,13,13,https://the-internet.herokuapp.com/status_codes/301,126,0,0
+1779293812774,128,Status code 200,200,OK,Thread Group 1-7,text,true,,3042,145,13,13,https://the-internet.herokuapp.com/status_codes/200,128,0,0
+1779293812404,508,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,14,14,https://the-internet.herokuapp.com/status_codes/301,508,0,381
+1779293812840,128,Status code 404,404,Not Found,Thread Group 1-11,text,true,,3049,145,14,14,https://the-internet.herokuapp.com/status_codes/404,128,0,0
+1779293812840,128,Status code 500,500,Internal Server Error,Thread Group 1-6,text,true,,3061,145,14,14,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293812844,128,Status code 200,200,OK,Thread Group 1-3,text,true,,3042,145,14,14,https://the-internet.herokuapp.com/status_codes/200,128,0,0
+1779293812886,128,Status code 500,500,Internal Server Error,Thread Group 1-10,text,true,,3061,145,14,14,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293812886,128,Status code 404,404,Not Found,Thread Group 1-12,text,true,,3049,145,14,14,https://the-internet.herokuapp.com/status_codes/404,128,0,0
+1779293812886,128,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,14,14,https://the-internet.herokuapp.com/status_codes/301,128,0,0
+1779293812891,127,Status code 404,404,Not Found,Thread Group 1-1,text,true,,3049,145,14,14,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293812889,129,Status code 200,200,OK,Thread Group 1-9,text,true,,3042,145,14,14,https://the-internet.herokuapp.com/status_codes/200,129,0,0
+1779293812890,128,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,14,14,https://the-internet.herokuapp.com/status_codes/301,128,0,0
+1779293812901,127,Status code 500,500,Internal Server Error,Thread Group 1-5,text,true,,3061,145,14,14,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293812902,126,Status code 200,200,OK,Thread Group 1-4,text,true,,3042,145,14,14,https://the-internet.herokuapp.com/status_codes/200,126,0,0
+1779293812902,126,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,14,14,https://the-internet.herokuapp.com/status_codes/301,126,0,0
+1779293812913,125,Status code 500,500,Internal Server Error,Thread Group 1-13,text,true,,3061,145,14,14,https://the-internet.herokuapp.com/status_codes/500,125,0,0
+1779293812969,131,Status code 200,200,OK,Thread Group 1-6,text,true,,3042,145,14,14,https://the-internet.herokuapp.com/status_codes/200,130,0,0
+1779293812973,127,Status code 404,404,Not Found,Thread Group 1-3,text,true,,3049,145,14,14,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293812969,131,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,14,14,https://the-internet.herokuapp.com/status_codes/301,131,0,0
+1779293813015,126,Status code 200,200,OK,Thread Group 1-12,text,true,,3042,145,14,14,https://the-internet.herokuapp.com/status_codes/200,126,0,0
+1779293813015,126,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,14,14,https://the-internet.herokuapp.com/status_codes/301,126,0,0
+1779293813014,129,Status code 500,500,Internal Server Error,Thread Group 1-10,text,true,,3061,145,14,14,https://the-internet.herokuapp.com/status_codes/500,129,0,0
+1779293813019,124,Status code 500,500,Internal Server Error,Thread Group 1-9,text,true,,3061,145,14,14,https://the-internet.herokuapp.com/status_codes/500,124,0,0
+1779293813018,127,Status code 404,404,Not Found,Thread Group 1-1,text,true,,3049,145,14,14,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293813020,130,Status code 200,200,OK,Thread Group 1-2,text,true,,3042,145,14,14,https://the-internet.herokuapp.com/status_codes/200,130,0,0
+1779293813029,129,Status code 404,404,Not Found,Thread Group 1-7,text,true,,3049,145,14,14,https://the-internet.herokuapp.com/status_codes/404,129,0,0
+1779293813029,129,Status code 500,500,Internal Server Error,Thread Group 1-4,text,true,,3061,145,14,14,https://the-internet.herokuapp.com/status_codes/500,129,0,0
+1779293813029,129,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,14,14,https://the-internet.herokuapp.com/status_codes/301,129,0,0
+1779293813039,127,Status code 200,200,OK,Thread Group 1-13,text,true,,3042,145,14,14,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293813100,128,Status code 404,404,Not Found,Thread Group 1-3,text,true,,3049,145,14,14,https://the-internet.herokuapp.com/status_codes/404,128,0,0
+1779293813100,128,Status code 500,500,Internal Server Error,Thread Group 1-11,text,true,,3061,145,14,14,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293813100,128,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,14,14,https://the-internet.herokuapp.com/status_codes/301,127,0,0
+1779293813144,127,Status code 404,404,Not Found,Thread Group 1-10,text,true,,3049,145,14,14,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293813144,127,Status code 500,500,Internal Server Error,Thread Group 1-9,text,true,,3061,145,14,14,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293813143,128,Status code 200,200,OK,Thread Group 1-12,text,true,,3042,145,14,14,https://the-internet.herokuapp.com/status_codes/200,128,0,0
+1779293813143,128,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,14,14,https://the-internet.herokuapp.com/status_codes/301,128,0,0
+1779293813147,126,Status code 200,200,OK,Thread Group 1-1,text,true,,3042,145,14,14,https://the-internet.herokuapp.com/status_codes/200,126,0,0
+1779293813151,128,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,14,14,https://the-internet.herokuapp.com/status_codes/301,128,0,0
+1779293813159,126,Status code 404,404,Not Found,Thread Group 1-7,text,true,,3049,145,14,14,https://the-internet.herokuapp.com/status_codes/404,126,0,0
+1779293813159,126,Status code 500,500,Internal Server Error,Thread Group 1-4,text,true,,3061,145,14,14,https://the-internet.herokuapp.com/status_codes/500,126,0,0
+1779293813160,129,Status code 200,200,OK,Thread Group 1-5,text,true,,3042,145,14,14,https://the-internet.herokuapp.com/status_codes/200,129,0,0
+1779293813167,137,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,14,14,https://the-internet.herokuapp.com/status_codes/301,137,0,0
+1779293813229,128,Status code 404,404,Not Found,Thread Group 1-3,text,true,,3049,145,14,14,https://the-internet.herokuapp.com/status_codes/404,128,0,0
+1779293813230,127,Status code 200,200,OK,Thread Group 1-6,text,true,,3042,145,14,14,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293813229,128,Status code 500,500,Internal Server Error,Thread Group 1-11,text,true,,3061,145,14,14,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293813272,128,Status code 500,500,Internal Server Error,Thread Group 1-12,text,true,,3061,145,14,14,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293813272,130,Status code 404,404,Not Found,Thread Group 1-9,text,true,,3049,145,14,14,https://the-internet.herokuapp.com/status_codes/404,130,0,0
+1779293813272,130,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,14,14,https://the-internet.herokuapp.com/status_codes/301,130,0,0
+1779293813273,131,Status code 200,200,OK,Thread Group 1-8,text,true,,3042,145,14,14,https://the-internet.herokuapp.com/status_codes/200,131,0,0
+1779293813274,130,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,14,14,https://the-internet.herokuapp.com/status_codes/301,130,0,0
+1779293813280,126,Status code 404,404,Not Found,Thread Group 1-2,text,true,,3049,145,14,14,https://the-internet.herokuapp.com/status_codes/404,126,0,0
+1779293813285,127,Status code 500,500,Internal Server Error,Thread Group 1-7,text,true,,3061,145,15,15,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293813286,126,Status code 200,200,OK,Thread Group 1-4,text,true,,3042,145,15,15,https://the-internet.herokuapp.com/status_codes/200,126,0,0
+1779293813290,126,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,15,15,https://the-internet.herokuapp.com/status_codes/301,125,0,0
+1779293813305,126,Status code 404,404,Not Found,Thread Group 1-13,text,true,,3049,145,15,15,https://the-internet.herokuapp.com/status_codes/404,126,0,0
+1779293812907,524,Status code 404,404,Not Found,Thread Group 1-14,text,true,,3049,145,15,15,https://the-internet.herokuapp.com/status_codes/404,524,0,397
+1779293813359,130,Status code 200,200,OK,Thread Group 1-11,text,true,,3042,145,15,15,https://the-internet.herokuapp.com/status_codes/200,130,0,0
+1779293813358,131,Status code 500,500,Internal Server Error,Thread Group 1-3,text,true,,3061,145,15,15,https://the-internet.herokuapp.com/status_codes/500,131,0,0
+1779293813359,130,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,15,15,https://the-internet.herokuapp.com/status_codes/301,130,0,0
+1779293813400,127,Status code 404,404,Not Found,Thread Group 1-12,text,true,,3049,145,15,15,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293813403,127,Status code 500,500,Internal Server Error,Thread Group 1-9,text,true,,3061,145,15,15,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293813404,126,Status code 200,200,OK,Thread Group 1-10,text,true,,3042,145,15,15,https://the-internet.herokuapp.com/status_codes/200,126,0,0
+1779293813404,128,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,15,15,https://the-internet.herokuapp.com/status_codes/301,128,0,0
+1779293813405,129,Status code 404,404,Not Found,Thread Group 1-1,text,true,,3049,145,15,15,https://the-internet.herokuapp.com/status_codes/404,129,0,0
+1779293813407,128,Status code 500,500,Internal Server Error,Thread Group 1-2,text,true,,3061,145,15,15,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293813417,125,Status code 500,500,Internal Server Error,Thread Group 1-5,text,true,,3061,145,15,15,https://the-internet.herokuapp.com/status_codes/500,125,0,0
+1779293813413,129,Status code 404,404,Not Found,Thread Group 1-7,text,true,,3049,145,15,15,https://the-internet.herokuapp.com/status_codes/404,129,0,0
+1779293813413,129,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,15,15,https://the-internet.herokuapp.com/status_codes/301,129,0,0
+1779293813433,126,Status code 200,200,OK,Thread Group 1-14,text,true,,3042,145,15,15,https://the-internet.herokuapp.com/status_codes/200,126,0,0
+1779293813433,126,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,15,15,https://the-internet.herokuapp.com/status_codes/301,126,0,0
+1779293813490,127,Status code 500,500,Internal Server Error,Thread Group 1-3,text,true,,3057,145,15,15,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293813490,129,Status code 404,404,Not Found,Thread Group 1-11,text,true,,3045,145,15,15,https://the-internet.herokuapp.com/status_codes/404,129,0,0
+1779293813491,128,Status code 200,200,OK,Thread Group 1-6,text,true,,3038,145,15,15,https://the-internet.herokuapp.com/status_codes/200,128,0,0
+1779293813527,126,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-12,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,15,15,https://the-internet.herokuapp.com/status_codes/301,126,0,0
+1779293813530,126,Status code 500,500,Internal Server Error,Thread Group 1-10,text,true,,3057,145,15,15,https://the-internet.herokuapp.com/status_codes/500,126,0,0
+1779293813530,129,Status code 404,404,Not Found,Thread Group 1-9,text,true,,3045,145,15,15,https://the-internet.herokuapp.com/status_codes/404,128,0,0
+1779293813535,126,Status code 404,404,Not Found,Thread Group 1-2,text,true,,3045,145,15,15,https://the-internet.herokuapp.com/status_codes/404,126,0,0
+1779293813533,128,Status code 200,200,OK,Thread Group 1-8,text,true,,3038,145,15,15,https://the-internet.herokuapp.com/status_codes/200,128,0,0
+1779293813535,128,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,15,15,https://the-internet.herokuapp.com/status_codes/301,128,0,0
+1779293813543,127,Status code 500,500,Internal Server Error,Thread Group 1-5,text,true,,3057,145,15,15,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293813544,126,Status code 200,200,OK,Thread Group 1-7,text,true,,3038,145,15,15,https://the-internet.herokuapp.com/status_codes/200,126,0,0
+1779293813544,136,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,15,15,https://the-internet.herokuapp.com/status_codes/301,136,0,0
+1779293813560,129,Status code 404,404,Not Found,Thread Group 1-14,text,true,,3045,145,15,15,https://the-internet.herokuapp.com/status_codes/404,129,0,0
+1779293813560,134,Status code 500,500,Internal Server Error,Thread Group 1-13,text,true,,3057,145,15,15,https://the-internet.herokuapp.com/status_codes/500,134,0,0
+1779293813619,126,Status code 404,404,Not Found,Thread Group 1-6,text,true,,3045,145,15,15,https://the-internet.herokuapp.com/status_codes/404,126,0,0
+1779293813618,127,Status code 200,200,OK,Thread Group 1-3,text,true,,3038,145,15,15,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293813619,126,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-11,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,15,15,https://the-internet.herokuapp.com/status_codes/301,126,0,0
+1779293813654,126,Status code 500,500,Internal Server Error,Thread Group 1-12,text,true,,3057,145,15,15,https://the-internet.herokuapp.com/status_codes/500,126,0,0
+1779293813657,127,Status code 200,200,OK,Thread Group 1-10,text,true,,3038,145,15,15,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293813659,125,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-9,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,15,15,https://the-internet.herokuapp.com/status_codes/301,125,0,0
+1779293813665,131,Status code 200,200,OK,Thread Group 1-1,text,true,,3038,145,15,15,https://the-internet.herokuapp.com/status_codes/200,131,0,0
+1779293813671,125,Status code 404,404,Not Found,Thread Group 1-7,text,true,,3045,145,15,15,https://the-internet.herokuapp.com/status_codes/404,125,0,0
+1779293813662,134,Status code 404,404,Not Found,Thread Group 1-2,text,true,,3045,145,15,15,https://the-internet.herokuapp.com/status_codes/404,134,0,0
+1779293813662,134,Status code 500,500,Internal Server Error,Thread Group 1-8,text,true,,3057,145,15,15,https://the-internet.herokuapp.com/status_codes/500,134,0,0
+1779293813671,125,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,15,15,https://the-internet.herokuapp.com/status_codes/301,125,0,0
+1779293813681,126,Status code 500,500,Internal Server Error,Thread Group 1-4,text,true,,3057,145,15,15,https://the-internet.herokuapp.com/status_codes/500,126,0,0
+1779293813690,126,Status code 200,200,OK,Thread Group 1-14,text,true,,3038,145,15,15,https://the-internet.herokuapp.com/status_codes/200,126,0,0
+1779293813694,128,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,15,15,https://the-internet.herokuapp.com/status_codes/301,128,0,0
+1779293813746,129,Status code 200,200,OK,Thread Group 1-11,text,true,,3038,145,15,15,https://the-internet.herokuapp.com/status_codes/200,129,0,0
+1779293813746,129,Status code 404,404,Not Found,Thread Group 1-6,text,true,,3045,145,15,15,https://the-internet.herokuapp.com/status_codes/404,129,0,0
+1779293813746,129,Status code 500,500,Internal Server Error,Thread Group 1-3,text,true,,3057,145,15,15,https://the-internet.herokuapp.com/status_codes/500,129,0,0
+1779293813798,134,Status code 200,200,OK,Thread Group 1-1,text,true,,3038,145,16,16,https://the-internet.herokuapp.com/status_codes/200,133,0,0
+1779293813414,518,Status code 200,200,OK,Thread Group 1-15,text,true,,3038,145,16,16,https://the-internet.herokuapp.com/status_codes/200,517,0,389
+1779293813798,134,Status code 500,500,Internal Server Error,Thread Group 1-2,text,true,,3057,145,16,16,https://the-internet.herokuapp.com/status_codes/500,133,0,0
+1779293813798,134,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,16,16,https://the-internet.herokuapp.com/status_codes/301,133,0,0
+1779293813797,149,Status code 404,404,Not Found,Thread Group 1-8,text,true,,3045,145,16,16,https://the-internet.herokuapp.com/status_codes/404,149,0,0
+1779293813780,152,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-12,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,16,16,https://the-internet.herokuapp.com/status_codes/301,151,0,0
+1779293813785,162,Status code 404,404,Not Found,Thread Group 1-10,text,true,,3045,145,16,16,https://the-internet.herokuapp.com/status_codes/404,162,0,0
+1779293813785,163,Status code 500,500,Internal Server Error,Thread Group 1-9,text,true,,3057,145,16,16,https://the-internet.herokuapp.com/status_codes/500,162,0,0
+1779293813823,127,Status code 500,500,Internal Server Error,Thread Group 1-13,text,true,,3057,145,16,16,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293813808,142,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,16,16,https://the-internet.herokuapp.com/status_codes/301,142,0,0
+1779293813817,134,Status code 404,404,Not Found,Thread Group 1-14,text,true,,3045,145,16,16,https://the-internet.herokuapp.com/status_codes/404,134,0,0
+1779293813797,155,Status code 200,200,OK,Thread Group 1-7,text,true,,3038,145,16,16,https://the-internet.herokuapp.com/status_codes/200,155,0,0
+1779293813877,127,Status code 404,404,Not Found,Thread Group 1-6,text,true,,3045,145,16,16,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293813877,127,Status code 200,200,OK,Thread Group 1-11,text,true,,3038,145,16,16,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293813877,127,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,16,16,https://the-internet.herokuapp.com/status_codes/301,127,0,0
+1779293813948,132,Status code 500,500,Internal Server Error,Thread Group 1-9,text,true,,3057,145,16,16,https://the-internet.herokuapp.com/status_codes/500,132,0,0
+1779293813948,132,Status code 200,200,OK,Thread Group 1-1,text,true,,3038,145,16,16,https://the-internet.herokuapp.com/status_codes/200,132,0,0
+1779293813951,129,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-13,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,16,16,https://the-internet.herokuapp.com/status_codes/301,129,0,0
+1779293813948,132,Status code 404,404,Not Found,Thread Group 1-10,text,true,,3045,145,16,16,https://the-internet.herokuapp.com/status_codes/404,132,0,0
+1779293813951,129,Status code 404,404,Not Found,Thread Group 1-4,text,true,,3045,145,16,16,https://the-internet.herokuapp.com/status_codes/404,129,0,0
+1779293813948,133,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-12,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,16,16,https://the-internet.herokuapp.com/status_codes/301,133,0,0
+1779293813953,132,Status code 404,404,Not Found,Thread Group 1-15,text,true,,3045,145,16,16,https://the-internet.herokuapp.com/status_codes/404,132,0,0
+1779293813953,132,Status code 200,200,OK,Thread Group 1-14,text,true,,3038,145,16,16,https://the-internet.herokuapp.com/status_codes/200,132,0,0
+1779293813951,134,Status code 200,200,OK,Thread Group 1-8,text,true,,3038,145,16,16,https://the-internet.herokuapp.com/status_codes/200,134,0,0
+1779293813952,133,Status code 500,500,Internal Server Error,Thread Group 1-5,text,true,,3057,145,16,16,https://the-internet.herokuapp.com/status_codes/500,133,0,0
+1779293813953,132,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,16,16,https://the-internet.herokuapp.com/status_codes/301,132,0,0
+1779293813954,133,Status code 500,500,Internal Server Error,Thread Group 1-7,text,true,,3057,145,16,16,https://the-internet.herokuapp.com/status_codes/500,133,0,0
+1779293814005,131,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,16,16,https://the-internet.herokuapp.com/status_codes/301,130,0,0
+1779293814005,130,Status code 404,404,Not Found,Thread Group 1-11,text,true,,3045,145,16,16,https://the-internet.herokuapp.com/status_codes/404,130,0,0
+1779293814005,131,Status code 200,200,OK,Thread Group 1-6,text,true,,3038,145,16,16,https://the-internet.herokuapp.com/status_codes/200,131,0,0
+1779293814082,127,Status code 200,200,OK,Thread Group 1-13,text,true,,3038,145,16,16,https://the-internet.herokuapp.com/status_codes/200,127,0,0
+1779293814083,126,Status code 200,200,OK,Thread Group 1-10,text,true,,3038,145,16,16,https://the-internet.herokuapp.com/status_codes/200,126,0,0
+1779293814081,128,Status code 500,500,Internal Server Error,Thread Group 1-9,text,true,,3057,145,16,16,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293814082,127,Status code 404,404,Not Found,Thread Group 1-4,text,true,,3045,145,16,16,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293814082,130,Status code 500,500,Internal Server Error,Thread Group 1-1,text,true,,3057,145,16,16,https://the-internet.herokuapp.com/status_codes/500,130,0,0
+1779293814082,130,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-12,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,16,16,https://the-internet.herokuapp.com/status_codes/301,130,0,0
+1779293814086,129,Status code 500,500,Internal Server Error,Thread Group 1-8,text,true,,3057,145,16,16,https://the-internet.herokuapp.com/status_codes/500,129,0,0
+1779293814087,128,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,16,16,https://the-internet.herokuapp.com/status_codes/301,128,0,0
+1779293814086,129,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-15,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,16,16,https://the-internet.herokuapp.com/status_codes/301,129,0,0
+1779293814086,130,Status code 404,404,Not Found,Thread Group 1-14,text,true,,3045,145,16,16,https://the-internet.herokuapp.com/status_codes/404,130,0,0
+1779293814087,131,Status code 200,200,OK,Thread Group 1-2,text,true,,3038,145,16,16,https://the-internet.herokuapp.com/status_codes/200,131,0,0
+1779293814088,130,Status code 404,404,Not Found,Thread Group 1-7,text,true,,3045,145,16,16,https://the-internet.herokuapp.com/status_codes/404,130,0,0
+1779293814137,126,Status code 200,200,OK,Thread Group 1-6,text,true,,3038,145,16,16,https://the-internet.herokuapp.com/status_codes/200,126,0,0
+1779293814137,126,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,16,16,https://the-internet.herokuapp.com/status_codes/301,126,0,0
+1779293814136,130,Status code 500,500,Internal Server Error,Thread Group 1-11,text,true,,3057,145,16,16,https://the-internet.herokuapp.com/status_codes/500,130,0,0
+1779293814217,128,Status code 200,200,OK,Thread Group 1-8,text,true,,3038,145,16,16,https://the-internet.herokuapp.com/status_codes/200,128,0,0
+1779293814217,128,Status code 500,500,Internal Server Error,Thread Group 1-15,text,true,,3057,145,16,16,https://the-internet.herokuapp.com/status_codes/500,128,0,0
+1779293814210,135,Status code 500,500,Internal Server Error,Thread Group 1-9,text,true,,3057,145,16,16,https://the-internet.herokuapp.com/status_codes/500,135,0,0
+1779293814211,134,Status code 200,200,OK,Thread Group 1-4,text,true,,3038,145,16,16,https://the-internet.herokuapp.com/status_codes/200,134,0,0
+1779293814213,133,Status code 404,404,Not Found,Thread Group 1-1,text,true,,3045,145,16,16,https://the-internet.herokuapp.com/status_codes/404,133,0,0
+1779293814210,136,Status code 404,404,Not Found,Thread Group 1-13,text,true,,3045,145,16,16,https://the-internet.herokuapp.com/status_codes/404,136,0,0
+1779293814213,133,Status code 500,500,Internal Server Error,Thread Group 1-12,text,true,,3057,145,16,16,https://the-internet.herokuapp.com/status_codes/500,133,0,0
+1779293814211,134,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-10,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,16,16,https://the-internet.herokuapp.com/status_codes/301,134,0,0
+1779293814217,128,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,16,16,https://the-internet.herokuapp.com/status_codes/301,128,0,0
+1779293814217,133,Status code 404,404,Not Found,Thread Group 1-14,text,true,,3045,145,16,16,https://the-internet.herokuapp.com/status_codes/404,133,0,0
+1779293814219,131,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-7,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,16,16,https://the-internet.herokuapp.com/status_codes/301,131,0,0
+1779293814219,131,Status code 200,200,OK,Thread Group 1-2,text,true,,3038,145,16,16,https://the-internet.herokuapp.com/status_codes/200,131,0,0
+1779293814263,127,Status code 404,404,Not Found,Thread Group 1-6,text,true,,3045,145,16,16,https://the-internet.herokuapp.com/status_codes/404,127,0,0
+1779293814263,127,Status code 500,500,Internal Server Error,Thread Group 1-3,text,true,,3057,145,16,16,https://the-internet.herokuapp.com/status_codes/500,127,0,0
+1779293814267,128,Status code 200,200,OK,Thread Group 1-11,text,true,,3038,145,16,16,https://the-internet.herokuapp.com/status_codes/200,128,0,0
+1779293813909,533,Status code 500,500,Internal Server Error,Thread Group 1-16,text,true,,3057,145,17,17,https://the-internet.herokuapp.com/status_codes/500,533,0,407
+1779293814347,130,Status code 200,200,OK,Thread Group 1-4,text,true,,3038,145,17,17,https://the-internet.herokuapp.com/status_codes/200,130,0,0
+1779293814347,130,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,17,17,https://the-internet.herokuapp.com/status_codes/301,130,0,0
+1779293814346,131,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-8,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,17,17,https://the-internet.herokuapp.com/status_codes/301,131,0,0
+1779293814346,134,Status code 500,500,Internal Server Error,Thread Group 1-9,text,true,,3057,145,17,17,https://the-internet.herokuapp.com/status_codes/500,134,0,0
+1779293814351,129,Status code 500,500,Internal Server Error,Thread Group 1-7,text,true,,3057,145,17,17,https://the-internet.herokuapp.com/status_codes/500,129,0,0
+1779293814347,133,Status code 500,500,Internal Server Error,Thread Group 1-1,text,true,,3057,145,17,17,https://the-internet.herokuapp.com/status_codes/500,133,0,0
+1779293814346,134,Status code 404,404,Not Found,Thread Group 1-15,text,true,,3045,145,17,17,https://the-internet.herokuapp.com/status_codes/404,134,0,0
+1779293814347,133,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-12,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,17,17,https://the-internet.herokuapp.com/status_codes/301,133,0,0
+1779293814350,133,Status code 404,404,Not Found,Thread Group 1-14,text,true,,3045,145,17,17,https://the-internet.herokuapp.com/status_codes/404,133,0,0
+1779293814347,136,Status code 200,200,OK,Thread Group 1-13,text,true,,3038,145,17,17,https://the-internet.herokuapp.com/status_codes/200,136,0,0
+1779293814351,132,Status code 200,200,OK,Thread Group 1-2,text,true,,3038,145,17,17,https://the-internet.herokuapp.com/status_codes/200,132,0,0
+1779293814347,136,Status code 404,404,Not Found,Thread Group 1-10,text,true,,3045,145,17,17,https://the-internet.herokuapp.com/status_codes/404,136,0,0
+1779293814390,126,Status code 404,404,Not Found,Thread Group 1-3,text,true,,3045,145,17,17,https://the-internet.herokuapp.com/status_codes/404,126,0,0
+1779293814390,126,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-6,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,17,17,https://the-internet.herokuapp.com/status_codes/301,126,0,0
+1779293814396,125,Status code 500,500,Internal Server Error,Thread Group 1-11,text,true,,3057,145,17,17,https://the-internet.herokuapp.com/status_codes/500,125,0,0
+1779293814442,138,Status code 301,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for GET https://the-internet.herokuapp.com/status_codes/301 HTTP/1.1,Thread Group 1-16,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[Non HTTP response code: java.lang.IllegalArgumentException]]]
+
+****** comparison: [[[301                                                       ]]]
+
+/",886,0,17,17,https://the-internet.herokuapp.com/status_codes/301,138,0,0
+1779293814478,128,Status code 404,404,Not Found,Thread Group 1-4,text,true,,3053,145,17,17,https://the-internet.herokuapp.com/status_codes/404,128,0,0
+1779293814478,129,Status code 500,500,Internal Server Error,Thread Group 1-5,text,true,,3065,145,17,17,https://the-internet.herokuapp.com/status_codes/500,129,0,0
+1779293814479,128,Status code 200,200,OK,Thread Group 1-8,text,true,,3046,145,17,17,https://the-internet.herokuapp.com/status_codes/200,128,0,0
+1779293814482,134,Status code 200,200,OK,Thread Group 1-15,text,true,,3046,145,17,17,https://the-internet.herokuapp.com/status_codes/200,134,0,0
+1779293814481,135,Status code 500,5

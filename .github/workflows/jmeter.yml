@@ -1,4 +1,4 @@
-name: JMeter Status Codes Tests
+name: JMeter Performance Tests
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  jmeter-tests:
+  jmeter-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,44 +25,37 @@ jobs:
           tar -xzf apache-jmeter-5.6.3.tgz
           mv apache-jmeter-5.6.3 jmeter
 
-      - name: Run Basic Status Codes Test
+      - name: Prepare folders
         run: |
-          mkdir -p results reports/status_codes_report
-          ./jmeter/bin/jmeter -n \
-            -t test-plans/status_codes_test.jmx \
-            -l results/status_codes_results.jtl \
-            -e \
-            -o reports/status_codes_report
+          mkdir -p results
+          mkdir -p reports/all_reports
 
       - name: Run Load Test
         run: |
-          mkdir -p reports/status_load_report
           ./jmeter/bin/jmeter -n \
             -t test-plans/status_load_test.jmx \
             -l results/status_load.jtl \
             -e \
-            -o reports/status_load_report
+            -o reports/all_reports/status_load_report
 
       - name: Run Stress Test
         run: |
-          mkdir -p reports/status_stress_report
           ./jmeter/bin/jmeter -n \
             -t test-plans/status_stress_test.jmx \
             -l results/status_stress.jtl \
             -e \
-            -o reports/status_stress_report
+            -o reports/all_reports/status_stress_report
 
       - name: Run Endurance Test
         run: |
-          mkdir -p reports/status_endurance_report
           ./jmeter/bin/jmeter -n \
             -t test-plans/status_endurance_test.jmx \
             -l results/status_endurance.jtl \
             -e \
-            -o reports/status_endurance_report
+            -o reports/all_reports/status_endurance_report
 
       - name: Upload HTML Reports
         uses: actions/upload-artifact@v4
         with:
-          name: jmeter-status-codes-html-reports
-          path: reports
+          name: jmeter-html-reports
+          path: reports/all_reports
